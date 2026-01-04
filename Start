@@ -1,3 +1,17 @@
+# Initialize git
 git init
+
+# Add all files
 git add .
-git commit -m "Initial commit: Tesla Referrals UK site"
+
+# Commit the changes
+git commit -m "Initial commit: Professional Tesla UK Referral Site"
+
+# Rename branch to main
+git branch -M main
+
+# Link to your GitHub (REPLACE 'your-username' with your actual GitHub username)
+git remote add origin https://github.com/preid0868-star/tesla-referrals-uk.git
+
+# Push to GitHub
+git push -u origin main
